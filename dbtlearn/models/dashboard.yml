@@ -1,0 +1,21 @@
+version: 2
+
+exposures:
+  - name: executive_dashboard
+    label: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://8821213c.us1a.app.preset.io/superset/dashboard/p/Brv6MdLM7m3/
+    description: Executive Dashboard about Airbnb.
+      
+
+    depends_on:
+      - ref('dim_listings_w_hosts')
+      - ref('mart_fullmoon_reviews')
+
+    owner:
+      name: Abdo W. dbtice
+      email: dataice@gmail.com
+
+
+
