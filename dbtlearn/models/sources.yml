@@ -1,4 +1,4 @@
-version: 2
+version: 2       # source
 
 sources:
   - name: airbnb
@@ -6,14 +6,24 @@ sources:
     tables: 
       - name: listings
         identifier: raw_listings 
+        columns:
+          - name: room_type
+            tests:
+              - dbt_expectations.expect_column_distinct_count_to_equal:
+                  value: 4
+          - name: price
+            tests: 
+              - dbt_expectations.expect_column_values_to_match_regex:
+                  regex: "^\\\\$[0-9\\\\.]+$"
 
       - name: hosts
         identifier: raw_hosts
 
       - name: reviews
         identifier: raw_reviews
-        laded_at_filed: date
+        loaded_at_field: date   # Checks freshness based on this column
         freshness: 
-          warn_after: {count: 1, period: hour}
-          error_after: {count: 24, period: hour}
+           warn_after: {count: 1, period: hour}   # Warn if data is older than 1 hour
+           error_after: {count: 24, period: hour} # Fail if data is older than 24 hours
+
           
