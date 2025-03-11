@@ -1,0 +1,31 @@
+[32m2025-03-11 14:11:54 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - LOGS_CAPTURED - Started capturing logs in process (pid: 111188).
+[32m2025-03-11 14:11:54 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - STEP_START - Started execution of step "dbtlearn_dbt_assets".
+[32m2025-03-11 14:11:54 +0000[0m - dagster - [34mINFO[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - A dbt subsetted execution is being performed. Overriding default dbt selection arguments `['--select', 'fqn:*']` with arguments: `['dbtlearn.fct.fct_reviews']`.
+INFO:dagster.builtin:__ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - A dbt subsetted execution is being performed. Overriding default dbt selection arguments `['--select', 'fqn:*']` with arguments: `['dbtlearn.fct.fct_reviews']`.
+[32m2025-03-11 14:11:54 +0000[0m - dagster - [34mINFO[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Copying `/workspaces/snow_dbt_airbnb/dbtlearn/target/partial_parse.msgpack` to `/workspaces/snow_dbt_airbnb/dbtlearn/target/dbtlearn_dbt_assets-998c386-5396c76/partial_parse.msgpack` to take advantage of partial parsing.
+INFO:dagster.builtin:__ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Copying `/workspaces/snow_dbt_airbnb/dbtlearn/target/partial_parse.msgpack` to `/workspaces/snow_dbt_airbnb/dbtlearn/target/dbtlearn_dbt_assets-998c386-5396c76/partial_parse.msgpack` to take advantage of partial parsing.
+[32m2025-03-11 14:11:54 +0000[0m - dagster - [34mINFO[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Running dbt command: `dbt build --select dbtlearn.fct.fct_reviews`.
+INFO:dagster.builtin:__ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Running dbt command: `dbt build --select dbtlearn.fct.fct_reviews`.
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - STEP_OUTPUT - Yielded output "fct_reviews" of type "Nothing". (Type check passed).
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - ASSET_MATERIALIZATION - Materialized value fct_reviews.
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - ASSET_CHECK_EVALUATION - DagsterEventType.ASSET_CHECK_EVALUATION for step dbtlearn_dbt_assets
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - STEP_OUTPUT - Yielded output "fct_reviews_accepted_values_fct_reviews_review_sentiment__positive__neutral__negative" of type "Any". (Type check passed).
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mWARNING[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Logging an `AssetObservation` instead of an `AssetCheckResult` for dbt test `consistent_created_at`.
+
+`consistent_created_at` is a singular test with multiple dependencies. Configure an asset key in the test's dbt meta to load it as an asset check.
+
+This test was included in Dagster's asset check selection, and was likely executed due to dbt indirect selection.
+WARNING:dagster.builtin:__ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Logging an `AssetObservation` instead of an `AssetCheckResult` for dbt test `consistent_created_at`.
+
+`consistent_created_at` is a singular test with multiple dependencies. Configure an asset key in the test's dbt meta to load it as an asset check.
+
+This test was included in Dagster's asset check selection, and was likely executed due to dbt indirect selection.
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step dbtlearn_dbt_assets
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - ASSET_OBSERVATION - DagsterEventType.ASSET_OBSERVATION for step dbtlearn_dbt_assets
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - ASSET_CHECK_EVALUATION - DagsterEventType.ASSET_CHECK_EVALUATION for step dbtlearn_dbt_assets
+[32m2025-03-11 14:12:02 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - STEP_OUTPUT - Yielded output "fct_reviews_not_null_fct_reviews_reviewer_name" of type "Any". (Type check passed).
+[32m2025-03-11 14:12:03 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - ASSET_CHECK_EVALUATION - DagsterEventType.ASSET_CHECK_EVALUATION for step dbtlearn_dbt_assets
+[32m2025-03-11 14:12:03 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - STEP_OUTPUT - Yielded output "fct_reviews_relationships_fct_reviews_listing_id__listing_id__ref_dim_listings_cleansed_" of type "Any". (Type check passed).
+[32m2025-03-11 14:12:03 +0000[0m - dagster - [34mINFO[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Finished dbt command: `dbt build --select dbtlearn.fct.fct_reviews`.
+INFO:dagster.builtin:__ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - dbtlearn_dbt_assets - Finished dbt command: `dbt build --select dbtlearn.fct.fct_reviews`.
+[32m2025-03-11 14:12:03 +0000[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 998c3865-07fb-47b6-bde6-81a31e93e82b - 111188 - dbtlearn_dbt_assets - STEP_SUCCESS - Finished execution of step "dbtlearn_dbt_assets" in 9.43s.
