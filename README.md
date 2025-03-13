@@ -1,2 +1,24 @@
-# snow_dbt_airbnb
-expermintal_trying
+#  Building a Modern Data Pipeline
+## Overview
+This project implements a scalable data pipeline using modern data stack tools to handle data ingestion, transformation, orchestration, and visualization efficiently.
+It integrates Dagster, Airbyte, Snowflake, dbt, and Apache Superset to ensure seamless data workflows.
+----
+## Technologies Used.
++ Dagster – Orchestrates the entire pipeline.
++ Airbyte – Extracts data from multiple sources.
++ Snowflake – Stores raw and transformed data.
++ dbt – Cleans, transforms, and models data.
++ Apache Superset – Provides interactive dashboards for visualization.
+
+## Architecture.
+The pipeline follows an ELT (Extract, Load, Transform) workflow orchestrated by Dagster:
+- **Ingestion:** Data is extracted using Airbyte.
+- **Storage & Transformation: **Raw data is stored in **Snowflake**.
+- ** dbt (Data Build Tool)** performs data transformations.
+- **BI & Visualization:** Transformed data is visualized using Apache Superset.
+
+## Pipeline Workflow.
+1️⃣ Ingestion: Airbyte extracts raw data from sources and loads it into Snowflake.
+2️⃣ Storage & Transformation: dbt transforms raw data into structured tables in Snowflake.
+3️⃣ Orchestration: Dagster schedules and automates the pipeline workflows.
+4️⃣ BI & Visualization: Apache Superset enables analytics and reporting on transformed data.
