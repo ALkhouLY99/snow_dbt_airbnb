@@ -20,9 +20,10 @@ The pipeline follows an ELT (Extract, Load, Transform) workflow orchestrated by 
 - **BI & Visualization:** Transformed data is visualized using Apache Superset.
 
 ## Pipeline Workflow.
-1️⃣- Ingestion: Airbyte extracts raw data from sources and loads it into Snowflake.
-2️⃣- Storage & Transformation: dbt transforms raw data into structured tables in Snowflake.
-3️⃣- Orchestration: Dagster schedules and automates the pipeline workflows.
-4️⃣- BI & Visualization: Apache Superset enables analytics and reporting on transformed data.
++ 1️⃣- Ingestion: Airbyte extracts raw data from sources and loads it into Snowflake.
++ 2️⃣- Storage & Transformation: dbt transforms raw data into structured tables in Snowflake.
++ 3️⃣- Orchestration: Dagster schedules and automates the pipeline workflows.
++ 4️⃣- BI & Visualization: Apache Superset enables analytics and reporting on transformed data.
 
-![screenshot](https://github.com/user-attachments/assets/ca3995d3-aa2e-4ebf-bdd4-ad22f067133a)
+
+![screenshot](https://github.com/user-attachments/assets/41f28f2f-e702-42f3-a96d-a7227d1e8e03)
