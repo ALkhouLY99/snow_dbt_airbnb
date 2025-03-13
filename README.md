@@ -1,8 +1,9 @@
-#  Building a Modern Data Pipeline
+# Building a Modern Data Pipeline _Airbnb Data_ & Dashboard 
+
 ## Overview
 This project implements a scalable data pipeline using modern data stack tools to handle data ingestion, transformation, orchestration, and visualization efficiently.
 It integrates Dagster, Airbyte, Snowflake, dbt, and Apache Superset to ensure seamless data workflows.
-----
+
 ## Technologies Used.
 + Dagster – Orchestrates the entire pipeline.
 + Airbyte – Extracts data from multiple sources.
