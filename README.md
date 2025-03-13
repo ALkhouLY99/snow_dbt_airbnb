@@ -25,7 +25,7 @@ The pipeline follows an ELT (Extract, Load, Transform) workflow orchestrated by 
 + 3️⃣- Orchestration: Dagster schedules and automates the pipeline workflows.
 + 4️⃣- BI & Visualization: Apache Superset enables analytics and reporting on transformed data.
 
-<p align="center"><strong>-------------------- _dashboard preview & lineage graph_ --------------------</strong></p>
+# <p align="center"><strong> <-------------------- _dashboard preview & lineage graph_ -------------------- > </strong></p>
 
 ![Screenshot 2025-03-13 054757](https://github.com/user-attachments/assets/e536e33e-ed93-4228-a323-26c3fb490576)
 ![screenshot](https://github.com/user-attachments/assets/41f28f2f-e702-42f3-a96d-a7227d1e8e03)
