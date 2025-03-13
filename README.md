@@ -15,8 +15,8 @@ It integrates Dagster, Airbyte, Snowflake, dbt, and Apache Superset to ensure se
 ## Architecture.
 The pipeline follows an ELT (Extract, Load, Transform) workflow orchestrated by Dagster:
 - **Ingestion:** Data is extracted using Airbyte.
-- **Storage & Transformation: **Raw data is stored in **Snowflake**.
-- ** dbt (Data Build Tool)** performs data transformations.
+- **Storage & Transformation:** Raw data is stored in **Snowflake**.
+- **dbt (Data Build Tool)** performs data transformations.
 - **BI & Visualization:** Transformed data is visualized using Apache Superset.
 
 ## Pipeline Workflow.
