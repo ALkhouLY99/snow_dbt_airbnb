@@ -1,4 +1,4 @@
-#![snow_dbt](https://github.com/user-attachments/assets/3a9a634f-faeb-4469-b9b3-7402db1ef97f)
+![snow_dbt](https://github.com/user-attachments/assets/3a9a634f-faeb-4469-b9b3-7402db1ef97f)
 # Building a Modern Data Pipeline _Airbnb Data_ & Dashboard 
 
 ## Overview
@@ -24,3 +24,5 @@ The pipeline follows an ELT (Extract, Load, Transform) workflow orchestrated by 
 2️⃣- Storage & Transformation: dbt transforms raw data into structured tables in Snowflake.
 3️⃣- Orchestration: Dagster schedules and automates the pipeline workflows.
 4️⃣- BI & Visualization: Apache Superset enables analytics and reporting on transformed data.
+
+![screenshot](https://github.com/user-attachments/assets/ca3995d3-aa2e-4ebf-bdd4-ad22f067133a)
