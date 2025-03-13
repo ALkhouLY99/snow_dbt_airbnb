@@ -1,5 +1,5 @@
-![snow_dbt](https://github.com/user-attachments/assets/3a9a634f-faeb-4469-b9b3-7402db1ef97f)
 # Building a Modern _Data Pipeline & Dashboard_ 
+![snow_dbt](https://github.com/user-attachments/assets/3a9a634f-faeb-4469-b9b3-7402db1ef97f)
 
 ## Overview
 This project implements a scalable data pipeline using modern data stack tools to handle data ingestion, transformation, orchestration, and visualization efficiently.
