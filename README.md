@@ -26,7 +26,7 @@ The pipeline follows an ELT (Extract, Load, Transform) workflow orchestrated by 
 + 4️⃣- BI & Visualization: Apache Superset enables analytics and reporting on transformed data.
 
 # <p align="center"><strong> < _Dashboard preview & Lineage graph_ > </strong></p>
--> Lineage graph (dbt doc)
+## -> Lineage graph (dbt doc)
 ![Screenshot 2025-03-13 054757](https://github.com/user-attachments/assets/e536e33e-ed93-4228-a323-26c3fb490576)
--> Dashboard(preset)
+## -> Dashboard(preset)
 ![screenshot](https://github.com/user-attachments/assets/41f28f2f-e702-42f3-a96d-a7227d1e8e03)
